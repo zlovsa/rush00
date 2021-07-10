@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace rush00.Data.Models
 {
-	class HabitCheck
+	public class HabitCheck
 	{
+		public DateTime Date;
+		public bool IsChecked = false;
+		public string DateStr => Date.ToShortDateString();
 	}
 }

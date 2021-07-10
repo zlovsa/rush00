@@ -8,5 +8,9 @@ namespace rush00.Data.Models
 {
 	class Habit
 	{
+		public string Title;
+		public string Motivation;
+		public List<HabitCheck> Progress;
+		public bool IsFinished = false;
 	}
 }
